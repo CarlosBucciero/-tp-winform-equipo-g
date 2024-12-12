@@ -22,5 +22,31 @@ namespace TP_WinForm
             vtn_Articulos ventana = new vtn_Articulos();
             ventana.ShowDialog();
         }
+
+
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAgregar ventanaAgregar = new frmAgregar();
+            ventanaAgregar.ShowDialog();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmBuscar ventanaAgregar = new frmBuscar();
+            ventanaAgregar.ShowDialog();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            frmEliminar ventanaEliminar = new frmEliminar();
+            ventanaEliminar.ShowDialog();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            frmEliminar ventanaModificar = new frmEliminar();
+            ventanaModificar.ShowDialog();
+        }
     }
 }

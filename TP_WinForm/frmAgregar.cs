@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace TP_WinForm
 {
-    public partial class vtn_Articulos : Form
+    public partial class frmAgregar : Form
     {
-        public vtn_Articulos()
+        public frmAgregar()
         {
             InitializeComponent();
-        }
-
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hola");
         }
     }
 }
