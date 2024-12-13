@@ -36,5 +36,10 @@ namespace TP_WinForm
         {
 
         }
+
+        private void frmAgregar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

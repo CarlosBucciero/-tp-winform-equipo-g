@@ -29,12 +29,13 @@ namespace TP_WinForm
         {
             frmAgregar ventanaAgregar = new frmAgregar();
             ventanaAgregar.ShowDialog();
+
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            frmBuscar ventanaAgregar = new frmBuscar();
-            ventanaAgregar.ShowDialog();
+            frmBuscar ventanaBuscar = new frmBuscar();
+            ventanaBuscar.ShowDialog();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -47,6 +48,11 @@ namespace TP_WinForm
         {
             frmEliminar ventanaModificar = new frmEliminar();
             ventanaModificar.ShowDialog();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

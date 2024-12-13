@@ -16,5 +16,10 @@ namespace TP_WinForm
         {
             InitializeComponent();
         }
+
+        private void textBox1VBVCBVCVC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
