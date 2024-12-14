@@ -46,7 +46,7 @@ namespace TP_WinForm
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            frmEliminar ventanaModificar = new frmEliminar();
+            frmModificar ventanaModificar = new frmModificar();
             ventanaModificar.ShowDialog();
         }
 

@@ -47,6 +47,7 @@
             this.btnAgregar = new System.Windows.Forms.PictureBox();
             this.btnModificar = new System.Windows.Forms.PictureBox();
             this.btnBuscar = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnEliminar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAgregar)).BeginInit();
@@ -120,7 +121,7 @@
             // btnArticulo
             // 
             this.btnArticulo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnArticulo.BackColor = System.Drawing.Color.Lavender;
+            this.btnArticulo.BackColor = System.Drawing.SystemColors.Window;
             this.btnArticulo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnArticulo.Image = ((System.Drawing.Image)(resources.GetObject("btnArticulo.Image")));
             this.btnArticulo.Location = new System.Drawing.Point(416, 197);
@@ -165,7 +166,7 @@
             this.button6.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(196, 571);
+            this.button6.Location = new System.Drawing.Point(196, 602);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(112, 37);
             this.button6.TabIndex = 13;
@@ -179,7 +180,7 @@
             this.btnModificar_2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnModificar_2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificar_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar_2.Location = new System.Drawing.Point(644, 568);
+            this.btnModificar_2.Location = new System.Drawing.Point(644, 600);
             this.btnModificar_2.Name = "btnModificar_2";
             this.btnModificar_2.Size = new System.Drawing.Size(112, 40);
             this.btnModificar_2.TabIndex = 14;
@@ -208,7 +209,7 @@
             this.btnEliminar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(196, 475);
+            this.btnEliminar.Location = new System.Drawing.Point(196, 506);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(106, 91);
             this.btnEliminar.TabIndex = 16;
@@ -236,7 +237,7 @@
             this.btnModificar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btnModificar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificar.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.Image")));
-            this.btnModificar.Location = new System.Drawing.Point(644, 474);
+            this.btnModificar.Location = new System.Drawing.Point(644, 506);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(112, 92);
             this.btnModificar.TabIndex = 18;
@@ -257,6 +258,21 @@
             this.btnBuscar.TabStop = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label8.Font = new System.Drawing.Font("Stencil", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.Window;
+            this.label8.Location = new System.Drawing.Point(154, 64);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(641, 44);
+            this.label8.TabIndex = 20;
+            this.label8.Text = " SOFTWARE DE GESTIÓN COMERCIAL";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -265,6 +281,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(976, 790);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnEliminar);
@@ -313,5 +330,6 @@
         private System.Windows.Forms.ToolStripMenuItem agregarProductosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarProductosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarProductosToolStripMenuItem;
+        private System.Windows.Forms.Label label8;
     }
 }

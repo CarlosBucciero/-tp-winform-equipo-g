@@ -16,5 +16,10 @@ namespace TP_WinForm
         {
             InitializeComponent();
         }
+
+        private void frmModificar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
