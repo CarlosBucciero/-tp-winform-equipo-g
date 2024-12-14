@@ -31,5 +31,10 @@ namespace TP_WinForm
         {
 
         }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
