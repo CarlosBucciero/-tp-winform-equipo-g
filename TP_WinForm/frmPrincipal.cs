@@ -17,12 +17,6 @@ namespace TP_WinForm
             InitializeComponent();
         }
 
-        private void btnArticulo_Click(object sender, EventArgs e)
-        {
-            vtn_Articulos ventana = new vtn_Articulos();
-            ventana.ShowDialog();
-        }
-
 
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -50,9 +44,12 @@ namespace TP_WinForm
             ventanaModificar.ShowDialog();
         }
 
-        private void frmPrincipal_Load(object sender, EventArgs e)
-        {
+     
 
+        private void btn_Articulo_Click(object sender, EventArgs e)
+        {
+            frmArticulo ventana = new frmArticulo();
+            ventana.ShowDialog();
         }
     }
 }

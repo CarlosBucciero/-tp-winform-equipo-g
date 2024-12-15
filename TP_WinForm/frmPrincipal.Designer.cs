@@ -83,7 +83,7 @@
             this.listadoDeArticulosToolStripMenuItem.Name = "listadoDeArticulosToolStripMenuItem";
             this.listadoDeArticulosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.listadoDeArticulosToolStripMenuItem.Text = "Listado de Articulos";
-            this.listadoDeArticulosToolStripMenuItem.Click += new System.EventHandler(this.btnArticulo_Click);
+           
             // 
             // agregarProductosToolStripMenuItem
             // 
@@ -130,7 +130,7 @@
             this.btnArticulo.TabIndex = 1;
             this.btnArticulo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnArticulo.UseVisualStyleBackColor = false;
-            this.btnArticulo.Click += new System.EventHandler(this.btnArticulo_Click);
+            this.btnArticulo.Click += new System.EventHandler(this.btn_Articulo_Click);
             // 
             // btnAgregar_2
             // 
@@ -200,7 +200,7 @@
             this.btnArticulo_2.TabIndex = 15;
             this.btnArticulo_2.Text = "LISTADO DE ARTICULOS";
             this.btnArticulo_2.UseVisualStyleBackColor = false;
-            this.btnArticulo_2.Click += new System.EventHandler(this.btnArticulo_Click);
+           
             // 
             // btnEliminar
             // 
@@ -298,7 +298,6 @@
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrincipal";
-            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnEliminar)).EndInit();
