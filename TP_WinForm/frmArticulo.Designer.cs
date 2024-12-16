@@ -31,7 +31,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmArticulo));
             this.dgv_Articulo = new System.Windows.Forms.DataGridView();
+            this.ptb_Articulo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Articulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_Articulo)).BeginInit();
             this.SuspendLayout();
             // 
             // dgv_Articulo
@@ -51,8 +53,19 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_Articulo.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_Articulo.Size = new System.Drawing.Size(692, 367);
+            this.dgv_Articulo.Size = new System.Drawing.Size(362, 245);
             this.dgv_Articulo.TabIndex = 0;
+            this.dgv_Articulo.SelectionChanged += new System.EventHandler(this.dgv_Articulo_SelectionChanged);
+            // 
+            // ptb_Articulo
+            // 
+            this.ptb_Articulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ptb_Articulo.Location = new System.Drawing.Point(446, 53);
+            this.ptb_Articulo.Name = "ptb_Articulo";
+            this.ptb_Articulo.Size = new System.Drawing.Size(331, 306);
+            this.ptb_Articulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptb_Articulo.TabIndex = 1;
+            this.ptb_Articulo.TabStop = false;
             // 
             // frmArticulo
             // 
@@ -61,11 +74,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ptb_Articulo);
             this.Controls.Add(this.dgv_Articulo);
             this.Name = "frmArticulo";
             this.Text = "frmPrueba";
             this.Load += new System.EventHandler(this.frmPrueba_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Articulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_Articulo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -73,5 +88,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgv_Articulo;
+        private System.Windows.Forms.PictureBox ptb_Articulo;
     }
 }
