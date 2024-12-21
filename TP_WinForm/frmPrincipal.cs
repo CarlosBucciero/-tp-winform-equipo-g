@@ -49,5 +49,7 @@ namespace TP_WinForm
             frmArticulo ventana = new frmArticulo();
             ventana.ShowDialog();
         }
+
+        
     }
 }

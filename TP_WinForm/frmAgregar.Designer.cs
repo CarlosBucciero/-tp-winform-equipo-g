@@ -195,7 +195,7 @@
             this.groupB.Controls.Add(this.label1);
             this.groupB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupB.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupB.Location = new System.Drawing.Point(331, 239);
+            this.groupB.Location = new System.Drawing.Point(277, 158);
             this.groupB.Name = "groupB";
             this.groupB.Size = new System.Drawing.Size(381, 355);
             this.groupB.TabIndex = 3;
@@ -225,7 +225,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(972, 786);
+            this.ClientSize = new System.Drawing.Size(864, 625);
             this.Controls.Add(this.groupB);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmAgregar";

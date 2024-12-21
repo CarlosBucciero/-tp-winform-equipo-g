@@ -31,10 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeArticulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregarProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eliminarProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnArticulo = new System.Windows.Forms.Button();
@@ -54,46 +50,15 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(976, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(868, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // archivoToolStripMenuItem
             // 
-            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listadoDeArticulosToolStripMenuItem,
-            this.agregarProductosToolStripMenuItem,
-            this.eliminarProductosToolStripMenuItem,
-            this.modificarProductosToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // listadoDeArticulosToolStripMenuItem
-            // 
-            this.listadoDeArticulosToolStripMenuItem.Name = "listadoDeArticulosToolStripMenuItem";
-            this.listadoDeArticulosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.listadoDeArticulosToolStripMenuItem.Text = "Listado de Articulos";
-            // 
-            // agregarProductosToolStripMenuItem
-            // 
-            this.agregarProductosToolStripMenuItem.Name = "agregarProductosToolStripMenuItem";
-            this.agregarProductosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.agregarProductosToolStripMenuItem.Text = "Agregar Productos";
-            this.agregarProductosToolStripMenuItem.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // eliminarProductosToolStripMenuItem
-            // 
-            this.eliminarProductosToolStripMenuItem.Name = "eliminarProductosToolStripMenuItem";
-            this.eliminarProductosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.eliminarProductosToolStripMenuItem.Text = "Eliminar Productos";
-            this.eliminarProductosToolStripMenuItem.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // modificarProductosToolStripMenuItem
-            // 
-            this.modificarProductosToolStripMenuItem.Name = "modificarProductosToolStripMenuItem";
-            this.modificarProductosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.modificarProductosToolStripMenuItem.Text = "Modificar Productos";
             // 
             // opcionesToolStripMenuItem
             // 
@@ -113,7 +78,7 @@
             this.btnArticulo.BackColor = System.Drawing.SystemColors.Window;
             this.btnArticulo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnArticulo.Image = ((System.Drawing.Image)(resources.GetObject("btnArticulo.Image")));
-            this.btnArticulo.Location = new System.Drawing.Point(318, 245);
+            this.btnArticulo.Location = new System.Drawing.Point(253, 238);
             this.btnArticulo.Name = "btnArticulo";
             this.btnArticulo.Size = new System.Drawing.Size(112, 91);
             this.btnArticulo.TabIndex = 1;
@@ -127,7 +92,7 @@
             this.btnAgregar_2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnAgregar_2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar_2.Location = new System.Drawing.Point(520, 355);
+            this.btnAgregar_2.Location = new System.Drawing.Point(451, 355);
             this.btnAgregar_2.Name = "btnAgregar_2";
             this.btnAgregar_2.Size = new System.Drawing.Size(106, 35);
             this.btnAgregar_2.TabIndex = 11;
@@ -141,7 +106,7 @@
             this.btnArticulo_2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnArticulo_2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnArticulo_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnArticulo_2.Location = new System.Drawing.Point(318, 355);
+            this.btnArticulo_2.Location = new System.Drawing.Point(253, 356);
             this.btnArticulo_2.Name = "btnArticulo_2";
             this.btnArticulo_2.Size = new System.Drawing.Size(112, 34);
             this.btnArticulo_2.TabIndex = 15;
@@ -155,7 +120,7 @@
             this.btnAgregar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
-            this.btnAgregar.Location = new System.Drawing.Point(520, 245);
+            this.btnAgregar.Location = new System.Drawing.Point(451, 238);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(106, 99);
             this.btnAgregar.TabIndex = 17;
@@ -170,7 +135,7 @@
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Font = new System.Drawing.Font("Stencil", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Window;
-            this.label8.Location = new System.Drawing.Point(154, 64);
+            this.label8.Location = new System.Drawing.Point(108, 95);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(641, 44);
             this.label8.TabIndex = 20;
@@ -184,7 +149,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(976, 790);
+            this.ClientSize = new System.Drawing.Size(868, 629);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnArticulo_2);
             this.Controls.Add(this.btnArticulo);
@@ -214,10 +179,6 @@
         private System.Windows.Forms.Button btnAgregar_2;
         private System.Windows.Forms.Button btnArticulo_2;
         private System.Windows.Forms.PictureBox btnAgregar;
-        private System.Windows.Forms.ToolStripMenuItem listadoDeArticulosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agregarProductosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eliminarProductosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarProductosToolStripMenuItem;
         private System.Windows.Forms.Label label8;
     }
 }
