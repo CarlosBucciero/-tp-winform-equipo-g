@@ -38,11 +38,9 @@ namespace TP_WinForm
             ventanaEliminar.ShowDialog();
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-            frmModificar ventanaModificar = new frmModificar();
-            ventanaModificar.ShowDialog();
-        }
+       
+
+       
 
      
 

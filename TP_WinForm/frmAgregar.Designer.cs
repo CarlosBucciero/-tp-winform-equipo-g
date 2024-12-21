@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAgregar));
-            this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.text_Nombre = new System.Windows.Forms.TextBox();
             this.btn_Agregar = new System.Windows.Forms.Button();
@@ -44,24 +43,10 @@
             this.cbo_Marca = new System.Windows.Forms.ComboBox();
             this.cbo_Categoria = new System.Windows.Forms.ComboBox();
             this.groupB = new System.Windows.Forms.GroupBox();
-            this.text_Codigo = new System.Windows.Forms.TextBox();
             this.text_Precio = new System.Windows.Forms.TextBox();
+            this.text_Codigo = new System.Windows.Forms.TextBox();
             this.groupB.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.Window;
-            this.label9.Location = new System.Drawing.Point(209, 132);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(647, 41);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "INGRESO DE PRODUCTOS NUEVOS";
             // 
             // label1
             // 
@@ -215,15 +200,7 @@
             this.groupB.Size = new System.Drawing.Size(381, 355);
             this.groupB.TabIndex = 3;
             this.groupB.TabStop = false;
-            this.groupB.Text = "PRODUCTO NUEVO";
-            // 
-            // text_Codigo
-            // 
-            this.text_Codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_Codigo.Location = new System.Drawing.Point(193, 34);
-            this.text_Codigo.Name = "text_Codigo";
-            this.text_Codigo.Size = new System.Drawing.Size(124, 29);
-            this.text_Codigo.TabIndex = 18;
+            this.groupB.Text = "PRODUCTO ";
             // 
             // text_Precio
             // 
@@ -233,6 +210,14 @@
             this.text_Precio.Size = new System.Drawing.Size(124, 29);
             this.text_Precio.TabIndex = 19;
             // 
+            // text_Codigo
+            // 
+            this.text_Codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_Codigo.Location = new System.Drawing.Point(193, 34);
+            this.text_Codigo.Name = "text_Codigo";
+            this.text_Codigo.Size = new System.Drawing.Size(124, 29);
+            this.text_Codigo.TabIndex = 18;
+            // 
             // frmAgregar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,7 +226,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(972, 786);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.groupB);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmAgregar";
@@ -251,12 +235,10 @@
             this.groupB.ResumeLayout(false);
             this.groupB.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox text_Nombre;
         private System.Windows.Forms.Button btn_Agregar;
